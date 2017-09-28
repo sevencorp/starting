@@ -1,2 +1,42 @@
-html
-html
+<!DOCTYPE html>
+<html >
+<head>
+	<meta charset="UTF-8">
+	<title>Page de connexion</title>
+</head>
+
+<body>
+<header>
+</header>
+<div class="login" >
+
+
+	<!-- formulaire  -->
+	<div id="content" class="ui very pConsultered text container segment" style="margin: auto">
+
+
+
+
+		<h1 class="ui title">Connexion</h1>
+		<form class="ui form " method="POST" id="form" action="/auth/login">
+
+			<div class="field">
+				<label  style="display: none">Login</label>
+				<input id="c_user" type="text" name="idu" placeholder="Nom de compte" required />
+			</div>
+
+			<div class="field">
+				<label style="display: none">Mot de passe</label>
+				<input id="c_password" type="password" name="pwd" placeholder="Mot de passe" required />
+			</div>
+
+			<div class="ui primary submit button ">Se connecter</div>
+		</form>
+
+	</div>
+
+</div>
+
+
+</body>
+</html>
